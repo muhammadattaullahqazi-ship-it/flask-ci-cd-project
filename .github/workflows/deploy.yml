@@ -29,7 +29,7 @@ jobs:
     - name: Run tests
       env:
         FLASK_SECRET: test-secret-for-ci-only
-      run: pytest
+            run: python -m pytest
 
   build-and-deploy:
     needs: test
