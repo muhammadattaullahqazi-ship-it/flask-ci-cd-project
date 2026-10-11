@@ -2,3 +2,4 @@ echo "__pycache__" >> .gitignore
 echo "venv" >> .gitignore
 echo ".terraform" >> .gitignore
 __pycache__/
+terraform.tfvars
